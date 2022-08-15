@@ -16,6 +16,7 @@ pub fn guess_the_number() {
             Ok(num) => num,
             Err(_) => {
                 println!("please type a number\n ");
+                println!("enter your guess again: ");
                 continue;
             }
         };
