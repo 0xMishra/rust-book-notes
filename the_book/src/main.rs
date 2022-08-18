@@ -8,17 +8,9 @@
 // mod ownership;
 // mod references;
 // mod slice_type;
-mod structs;
+// mod structs;
+// mod struct_by_example;
+mod method_syntax;
 fn main() {
-    // hello_world::echo_hello_world();
-    // guessing_game::guess_the_number();
-    // variables::variables_and_mutability();
-    // data_types::show_data_types();
-    // functions::run_functions();
-    // comments::run_comments();
-    // control_flow::run_control_flow();
-    // ownership::run_ownership();
-    // references::run_references();
-    // slice_type::run_slice_type();
-    structs::run_structs();
+    method_syntax::run_method_syntax();
 }
