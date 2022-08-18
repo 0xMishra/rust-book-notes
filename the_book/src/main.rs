@@ -10,7 +10,8 @@
 // mod slice_type;
 // mod structs;
 // mod struct_by_example;
-mod method_syntax;
+// mod method_syntax;
+mod enums;
 fn main() {
-    method_syntax::run_method_syntax();
+    enums::run_enums();
 }
