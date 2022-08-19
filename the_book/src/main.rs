@@ -11,7 +11,9 @@
 // mod structs;
 // mod struct_by_example;
 // mod method_syntax;
-mod enums;
+// mod enums;
+// mod match_control_flow;
+mod if_let;
 fn main() {
-    enums::run_enums();
+    if_let::run_if_let();
 }
