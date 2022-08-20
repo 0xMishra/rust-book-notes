@@ -13,7 +13,8 @@
 // mod method_syntax;
 // mod enums;
 // mod match_control_flow;
-mod if_let;
+// mod if_let;
+mod vectors;
 fn main() {
-    if_let::run_if_let();
+    vectors::run_vectors();
 }
