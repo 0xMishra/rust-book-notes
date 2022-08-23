@@ -1,3 +1,5 @@
+use std::hash;
+
 // mod hello_world;
 // mod guessing_game;
 // mod variables;
@@ -15,7 +17,8 @@
 // mod match_control_flow;
 // mod if_let;
 // mod vectors;
-mod strings;
+// mod strings;
+mod hashmaps;
 fn main() {
-    strings::run_strings();
+    hashmaps::run_hashmaps();
 }
