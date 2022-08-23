@@ -14,7 +14,8 @@
 // mod enums;
 // mod match_control_flow;
 // mod if_let;
-mod vectors;
+// mod vectors;
+mod strings;
 fn main() {
-    vectors::run_vectors();
+    strings::run_strings();
 }
