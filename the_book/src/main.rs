@@ -1,5 +1,3 @@
-use std::hash;
-
 // mod hello_world;
 // mod guessing_game;
 // mod variables;
@@ -18,7 +16,8 @@ use std::hash;
 // mod if_let;
 // mod vectors;
 // mod strings;
-mod hashmaps;
+// mod hashmaps;
+mod unrecoverable_errors;
 fn main() {
-    hashmaps::run_hashmaps();
+    unrecoverable_errors::run_unrecoverable_errors();
 }
