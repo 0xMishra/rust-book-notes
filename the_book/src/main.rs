@@ -18,7 +18,8 @@
 // mod strings;
 // mod hashmaps;
 // mod unrecoverable_errors;
-mod recoverable_errors;
+// mod recoverable_errors;
+mod panic_or_not;
 fn main() {
-    recoverable_errors::run_recoverable_errors();
+    panic_or_not::to_panic_or_not();
 }
