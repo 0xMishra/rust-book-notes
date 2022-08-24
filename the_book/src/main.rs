@@ -17,7 +17,8 @@
 // mod vectors;
 // mod strings;
 // mod hashmaps;
-mod unrecoverable_errors;
+// mod unrecoverable_errors;
+mod recoverable_errors;
 fn main() {
-    unrecoverable_errors::run_unrecoverable_errors();
+    recoverable_errors::run_recoverable_errors();
 }
