@@ -20,7 +20,8 @@
 // mod unrecoverable_errors;
 // mod recoverable_errors;
 // mod panic_or_not;
-mod generic_data_types;
+// mod generic_data_types;
+mod traits;
 fn main() {
-    generic_data_types::run_generic_data_types();
+    traits::traits_and_shared_behavior();
 }
