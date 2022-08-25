@@ -19,7 +19,8 @@
 // mod hashmaps;
 // mod unrecoverable_errors;
 // mod recoverable_errors;
-mod panic_or_not;
+// mod panic_or_not;
+mod generic_data_types;
 fn main() {
-    panic_or_not::to_panic_or_not();
+    generic_data_types::run_generic_data_types();
 }
