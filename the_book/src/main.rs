@@ -21,7 +21,8 @@
 // mod recoverable_errors;
 // mod panic_or_not;
 // mod generic_data_types;
-mod traits;
+// mod traits;
+mod references_and_lifetimes;
 fn main() {
-    traits::traits_and_shared_behavior();
+    references_and_lifetimes::validating_references_with_lifetimes();
 }
