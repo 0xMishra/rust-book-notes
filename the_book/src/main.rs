@@ -22,7 +22,5 @@
 // mod panic_or_not;
 // mod generic_data_types;
 // mod traits;
-mod references_and_lifetimes;
-fn main() {
-    references_and_lifetimes::validating_references_with_lifetimes();
-}
+// mod references_and_lifetimes;
+fn main() {}
