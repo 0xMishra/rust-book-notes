@@ -22,7 +22,7 @@ pub fn add_2(num: i32) -> i32 {
 
 // This function is for custom failure messages
 pub fn greeting(name: &str) -> String {
-    String::from("Hello")
+    format!("Hello {}", name)
 }
 
 // This code snipper is for should_panic! macro
@@ -56,8 +56,9 @@ mod tests {
         assert_eq!(2 + 2, 4);
     }
 
-    // this test should fail
+    // this test should panic
     #[test]
+    #[should_panic]
     fn another() {
         panic!("make this test fail");
     }
@@ -78,6 +79,7 @@ mod tests {
 
     // this test should fail
     #[test]
+    #[ignore = "just an example"]
     fn smaller_cannot_hold_larger() {
         let rect1 = Rectangle {
             width: 8,
@@ -98,6 +100,7 @@ mod tests {
 
     // Test shows the use of custom failure messages. This test should fail
     #[test]
+    #[ignore = "just an example"]
     fn greeting_contains_name() {
         let result = greeting("harry");
         assert!(
