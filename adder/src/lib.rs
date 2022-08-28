@@ -116,6 +116,7 @@ mod tests {
     // Using Result<T,E> instead of just panicking
 
     #[test]
+    #[ignore = "its just an example"] // Now this test will be ignored
     fn it_works() -> Result<(), String> {
         if 2 + 2 == 4 {
             Ok(())
