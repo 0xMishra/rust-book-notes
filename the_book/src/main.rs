@@ -23,7 +23,8 @@
 // mod generic_data_types;
 // mod traits;
 // mod references_and_lifetimes;
-mod closures;
+// mod closures;
+mod iterators;
 fn main() {
-    closures::run_closures();
+    iterators::run_iterators();
 }
