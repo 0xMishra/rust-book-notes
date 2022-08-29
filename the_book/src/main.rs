@@ -23,4 +23,7 @@
 // mod generic_data_types;
 // mod traits;
 // mod references_and_lifetimes;
-fn main() {}
+mod closures;
+fn main() {
+    closures::run_closures();
+}
