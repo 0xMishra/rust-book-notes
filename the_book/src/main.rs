@@ -24,7 +24,5 @@
 // mod traits;
 // mod references_and_lifetimes;
 // mod closures;
-mod iterators;
-fn main() {
-    iterators::run_iterators();
-}
+// mod iterators;
+fn main() {}
