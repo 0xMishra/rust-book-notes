@@ -29,7 +29,8 @@
 // mod references_and_lifetimes;
 // mod closures;
 // mod iterators;
-mod box_pointer;
+// mod box_pointer;
+mod deref_trait;
 fn main() {
-    box_pointer::run_box_pointer();
+    deref_trait::run_deref_trait();
 }
