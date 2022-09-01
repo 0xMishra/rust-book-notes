@@ -1,3 +1,7 @@
+//! # The Book
+//!
+//! `the_book` is a collection of all the chapters containing code examples and concepts from the rust book .
+
 // mod hello_world;
 // mod guessing_game;
 // mod variables;
