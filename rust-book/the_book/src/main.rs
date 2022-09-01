@@ -29,4 +29,7 @@
 // mod references_and_lifetimes;
 // mod closures;
 // mod iterators;
-fn main() {}
+mod box_pointer;
+fn main() {
+    box_pointer::run_box_pointer();
+}
