@@ -35,8 +35,9 @@
 // mod rc_smart_pointer;
 // mod refcell_smart_pointer;
 // mod reference_cycles;
-mod threads;
+// mod threads;
+// mod shared_state_concurrency;
+mod sync_and_send;
 fn main() {
-    // threads::run_code_simultaneously();
-    threads::transfer_data_between_threads();
+    sync_and_send::run_sync_and_send();
 }
