@@ -30,7 +30,6 @@
 // mod closures;
 // mod iterators;
 // mod box_pointer;
-mod deref_trait;
-fn main() {
-    deref_trait::run_deref_trait();
-}
+// mod deref_trait;
+// mod drop_trait;
+fn main() {}
