@@ -34,7 +34,9 @@
 // mod drop_trait;
 // mod rc_smart_pointer;
 // mod refcell_smart_pointer;
-mod reference_cycles;
+// mod reference_cycles;
+mod threads;
 fn main() {
-    reference_cycles::run_reference_cycles();
+    // threads::run_code_simultaneously();
+    threads::transfer_data_between_threads();
 }
