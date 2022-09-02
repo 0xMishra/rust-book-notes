@@ -32,4 +32,7 @@
 // mod box_pointer;
 // mod deref_trait;
 // mod drop_trait;
-fn main() {}
+mod rc_smart_pointer;
+fn main() {
+    rc_smart_pointer::run_rc_smart_pointer();
+}
