@@ -33,7 +33,8 @@
 // mod deref_trait;
 // mod drop_trait;
 // mod rc_smart_pointer;
-mod refcell_smart_pointer;
+// mod refcell_smart_pointer;
+mod reference_cycles;
 fn main() {
-    refcell_smart_pointer::run_refcell_smart_pointer();
+    reference_cycles::run_reference_cycles();
 }
