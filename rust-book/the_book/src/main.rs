@@ -32,7 +32,8 @@
 // mod box_pointer;
 // mod deref_trait;
 // mod drop_trait;
-mod rc_smart_pointer;
+// mod rc_smart_pointer;
+mod refcell_smart_pointer;
 fn main() {
-    rc_smart_pointer::run_rc_smart_pointer();
+    refcell_smart_pointer::run_refcell_smart_pointer();
 }
