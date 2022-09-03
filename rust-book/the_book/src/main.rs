@@ -37,7 +37,8 @@
 // mod reference_cycles;
 // mod threads;
 // mod shared_state_concurrency;
-mod sync_and_send;
+// mod sync_and_send;
+mod characteristics_of_oops;
 fn main() {
-    sync_and_send::run_sync_and_send();
+    characteristics_of_oops::run_characteristics_of_oops();
 }
