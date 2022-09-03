@@ -39,7 +39,8 @@
 // mod shared_state_concurrency;
 // mod sync_and_send;
 // mod characteristics_of_oops;
-mod trait_objects;
+// mod trait_objects;
+mod oop_design_pattern;
 fn main() {
-    trait_objects::run_trait_objects();
+    oop_design_pattern::run_oop_design_pattern();
 }
