@@ -40,7 +40,8 @@
 // mod sync_and_send;
 // mod characteristics_of_oops;
 // mod trait_objects;
-mod oop_design_pattern;
+// mod oop_design_pattern;
+mod patterns_use_cases;
 fn main() {
-    oop_design_pattern::run_oop_design_pattern();
+    patterns_use_cases::run_pattern_use_cases();
 }
