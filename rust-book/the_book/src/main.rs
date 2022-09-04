@@ -42,7 +42,8 @@
 // mod trait_objects;
 // mod oop_design_pattern;
 // mod patterns_use_cases;
-mod refutability_in_patterns;
+// mod refutability_in_patterns;
+mod pattern_syntax;
 fn main() {
-    refutability_in_patterns::run_refutability_in_patterns();
+    pattern_syntax::run_pattern_syntax();
 }
