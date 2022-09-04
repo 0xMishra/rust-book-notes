@@ -43,7 +43,8 @@
 // mod oop_design_pattern;
 // mod patterns_use_cases;
 // mod refutability_in_patterns;
-mod pattern_syntax;
+// mod pattern_syntax;
+mod unsafe_rust;
 fn main() {
-    pattern_syntax::run_pattern_syntax();
+    unsafe_rust::run_unsafe_rust();
 }
