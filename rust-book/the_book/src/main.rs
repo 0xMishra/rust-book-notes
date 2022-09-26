@@ -45,7 +45,8 @@
 // mod refutability_in_patterns;
 // mod pattern_syntax;
 // mod unsafe_rust;
-mod advanced_traits;
+// mod advanced_traits;
+mod advanced_types;
 fn main() {
-    advanced_traits::run_advanced_traits();
+    advanced_types::run_advanced_types();
 }
