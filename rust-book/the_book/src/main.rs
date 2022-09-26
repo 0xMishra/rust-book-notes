@@ -44,7 +44,8 @@
 // mod patterns_use_cases;
 // mod refutability_in_patterns;
 // mod pattern_syntax;
-mod unsafe_rust;
+// mod unsafe_rust;
+mod advanced_traits;
 fn main() {
-    unsafe_rust::run_unsafe_rust();
+    advanced_traits::run_advanced_traits();
 }

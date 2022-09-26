@@ -37,7 +37,6 @@ impl<T> Deref for MyBox<T> {
         &self.0
     }
 }
-
 // Deref coercion converts a reference to a type that implements the Deref trait into a reference to another type. For example, deref coercion can convert &String to &str because String implements the Deref trait such that it returns &str.
 
 fn hello(name: &str) {
