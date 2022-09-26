@@ -47,7 +47,8 @@
 // mod unsafe_rust;
 // mod advanced_traits;
 // mod advanced_types;
-mod advanced_functions_and_closures;
+// mod advanced_functions_and_closures;
+mod macros;
 fn main() {
-    advanced_functions_and_closures::run_advanced_functions_and_closures();
+    macros::run_macros();
 }
